@@ -19,7 +19,7 @@ class CreateStructureForSchools extends StructureMigration
     ];
 
     protected $menu = [
-        'name' => 'Schools', 'icon' => '', 'route' => 'administration.schools.index', 'order_index' => 180, 'has_children' => false
+        'name' => 'Schools', 'icon' => 'hotel', 'route' => 'administration.schools.index', 'order_index' => 180, 'has_children' => false
     ];
 
     protected $parentMenu = 'Administration';
