@@ -2,7 +2,8 @@
 
     <div class="columns is-centered">
         <div class="column is-three-quarters-desktop is-full-touch">
-            <vue-form-ss class="box has-background-light raises-on-hover animated fadeIn"/>
+            <!-- <vue-form-ss class="box has-background-light raises-on-hover animated fadeIn"/> -->
+            <enso-form class="box has-background-light raises-on-hover animated fadeIn"/>
         </div>
     </div>
 
@@ -10,10 +11,10 @@
 
 <script>
 
-import VueFormSs from '../../../components/enso/vueforms/VueForm.vue';
+import EnsoForm from '../../../components/enso/vueforms/EnsoForm.vue';
 
 export default {
-    components: { VueFormSs },
+    components: { EnsoForm },
 };
 
 </script>
