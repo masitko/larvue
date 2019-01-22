@@ -16,10 +16,10 @@
                     'main-content',
                     menu.isExpanded ? 'is-expanded' : 'is-collapsed' ]
                 ">
-                <bookmarks :class="[
+                <!-- <bookmarks :class="[
                         'animated',
                         bookmarks ? 'slideInDown' : 'fadeOut'
-                    ]" v-show="bookmarks"/>
+                    ]" v-show="bookmarks"/> -->
                 <div class="wrapper page-content">
                     <page-header :title="$route.meta.title"/>
                     <router v-if="isInitialised"/>

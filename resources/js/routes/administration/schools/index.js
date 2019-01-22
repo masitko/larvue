@@ -6,6 +6,6 @@ export default {
     component: SchoolIndex,
     meta: {
         breadcrumb: 'index',
-        title: 'School',
+        title: 'Schools',
     },
 };

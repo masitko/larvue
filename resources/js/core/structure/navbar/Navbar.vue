@@ -20,11 +20,11 @@
             </a>
             <div class="navbar-item"
                 v-if="meta.env === 'local'">
-                <span class="tag is-warning">
+                <!-- <span class="tag is-warning">
                     <span class="icon is-small">
                         <fa icon="code"/>
                     </span>
-                </span>
+                </span> -->
             </div>
             <div class="navbar-item"
                 v-if="impersonating">
@@ -41,19 +41,19 @@
             </div>
             <div class="is-pulled-right is-flex"
                 v-if="isTouch">
-                <search v-if="!isMobile"/>
-                <notifications/>
-                <profile-control/>
-                <settings-control/>
+                <!-- <search v-if="!isMobile"/> -->
+                <!-- <notifications/> -->
+                <!-- <profile-control/> -->
+                <!-- <settings-control/> -->
             </div>
         </div>
         <div class="navbar-menu">
             <div class="navbar-end"
                 v-if="!isTouch">
-                <search/>
-                <notifications/>
-                <profile-control/>
-                <settings-control/>
+                <!-- <search/> -->
+                <!-- <notifications/> -->
+                <!-- <profile-control/> -->
+                <!-- <settings-control/> -->
             </div>
         </div>
     </nav>

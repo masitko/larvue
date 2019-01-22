@@ -2,7 +2,7 @@
 
     <footer class="footer">
         <div class="content has-text-centered">
-            <p class="level">
+            <!-- <p class="level">
                 <span class="level-item">
                     <strong class="has-margin-right-small">
                         {{ meta.appName }} v{{ meta.version }}
@@ -34,8 +34,17 @@
                             height="28">
                     </a>
                 </span>
-            </p>
+            </p> -->
             <p class="level">
+                <span class="level-item">
+                    <!-- <strong>Powered by:</strong> -->
+                    <a href="https://www.22pointsix.co.uk/"
+                        target="_blank">
+                        © 22PointSix
+                    </a>
+                </span>
+            </p>
+            <!-- <p class="level">
                 <span class="level-item">
                     <strong>Backed by:</strong>
                     <a href="https://earthlink.ro"
@@ -53,7 +62,7 @@
                         <fa :icon="['fab', 'github']"/>
                     </span>
                 </a>
-            </p>
+            </p> -->
         </div>
     </footer>
 

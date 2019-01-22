@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Administration\Schools;
 
 use App\School;
 use App\Forms\Builders\Administration\SchoolForm;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
+// use Illuminate\Routing\Controller;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Administration\ValidateSchoolRequest;
 

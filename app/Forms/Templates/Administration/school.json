@@ -2,6 +2,16 @@
     "routePrefix": "administration.schools",
     "sections": [{
         "columns": 2,
-        "fields": []
+        "fields": [
+          {
+            "label": "Name",
+            "name": "name",
+            "value": null,
+            "meta": {
+                "type": "input",
+                "content": "text"
+            }
+        }          
+        ]
     }]
 }
