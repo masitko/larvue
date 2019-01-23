@@ -1,14 +1,49 @@
 {
-    "routePrefix": "administration.schools",
-    "crtNo": true,
-    "buttons": ["excel", "create", "show", "edit", "destroy"],
-    "columns": [{
-        "label": "Id",
-        "name": "dtRowId",
-        "data": "schools.dtRowId",
-        "meta": [
-            "searchable",
-            "sortable"
-        ]
-    }]
+  "routePrefix": "administration.schools",
+  "crtNo": true,
+  "buttons": [
+    "excel",
+    "create",
+    "show",
+    "edit",
+    "destroy"
+  ],
+  "columns": [
+    {
+      "label": "Name",
+      "name": "name",
+      "data": "companies.name",
+      "meta": [
+        "searchable",
+        "sortable"
+      ]
+    },
+    {
+      "label": "Email",
+      "name": "email",
+      "data": "companies.email",
+      "meta": [
+        "searchable",
+        "sortable"
+      ]
+    },
+    {
+      "label": "Phone",
+      "name": "phone",
+      "data": "companies.phone",
+      "meta": [
+        "searchable",
+        "sortable"
+      ]
+    },
+    {
+      "label": "Fax",
+      "name": "fax",
+      "data": "companies.fax",
+      "meta": [
+        "searchable",
+        "sortable"
+      ]
+    }
+  ]
 }

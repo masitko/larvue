@@ -12,7 +12,7 @@ class SchoolTable extends Table
     public function query()
     {
         return School::select(\DB::raw('
-            schools.id as "dtRowId"
+            schools.*, schools.id as "dtRowId"
         '));
     }
 }
