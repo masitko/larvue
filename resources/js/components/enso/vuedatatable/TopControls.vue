@@ -40,8 +40,9 @@
                     column is-one-third-desktop is-half-tablet has-text-right-tablet
                     has-text-centered-mobile has-padding-small table-buttons
                 ">
+                    <!-- v-for="button in template.buttons.global" -->
                 <button class="button has-margin-left-small"
-                    v-for="button in template.buttons.global"
+                    v-for="button in getButtons"
                     :class="button.class"
                     :key="button.label"
                     :href="button.action === 'href' ? button.path : null"
@@ -138,6 +139,15 @@ export default {
         };
     },
 
+    computed: {
+      getButtons:  function() {
+        return this.template.buttons.global.filter(
+          button => button.action !== 'export' 
+        );
+      }
+
+      
+    },
     methods: {
         showModal(button) {
             this.button = button;

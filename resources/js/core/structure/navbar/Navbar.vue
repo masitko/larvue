@@ -43,7 +43,7 @@
                 v-if="isTouch">
                 <!-- <search v-if="!isMobile"/> -->
                 <!-- <notifications/> -->
-                <!-- <profile-control/> -->
+                <profile-control/>
                 <!-- <settings-control/> -->
             </div>
         </div>
@@ -52,7 +52,7 @@
                 v-if="!isTouch">
                 <!-- <search/> -->
                 <!-- <notifications/> -->
-                <!-- <profile-control/> -->
+                <profile-control/>
                 <!-- <settings-control/> -->
             </div>
         </div>
