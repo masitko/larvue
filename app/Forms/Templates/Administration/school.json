@@ -39,6 +39,16 @@
             "type": "input",
             "content": "text"
           }
+        },
+        {
+          "label": "School Admin",
+          "name": "admin_id",
+          "value": null,
+          "meta": {
+            "type": "select",
+            "source": "administration.users.options",
+            "label": "person.name"
+          }
         }
       ]
     },

@@ -16,8 +16,8 @@ class CreateSchoolsTable extends Migration
         Schema::create('schools', function (Blueprint $table) {
             $table->increments('id');
 
-            $table->integer('contact_id')->unsigned()->index()->nullable();
-            $table->foreign('contact_id')->references('id')->on('users');
+            $table->integer('admin_id')->unsigned()->index()->nullable();
+            $table->foreign('admin_id')->references('id')->on('users');
 
             $table->string('name')->unique();
             $table->string('email')->nullable();

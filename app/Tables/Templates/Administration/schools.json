@@ -12,7 +12,7 @@
     {
       "label": "Name",
       "name": "name",
-      "data": "companies.name",
+      "data": "schools.name",
       "meta": [
         "searchable",
         "sortable"
@@ -21,7 +21,7 @@
     {
       "label": "Email",
       "name": "email",
-      "data": "companies.email",
+      "data": "schools.email",
       "meta": [
         "searchable",
         "sortable"
@@ -30,7 +30,7 @@
     {
       "label": "Phone",
       "name": "phone",
-      "data": "companies.phone",
+      "data": "schools.phone",
       "meta": [
         "searchable",
         "sortable"
@@ -39,9 +39,27 @@
     {
       "label": "Fax",
       "name": "fax",
-      "data": "companies.fax",
+      "data": "schools.fax",
       "meta": [
         "searchable",
+        "sortable"
+      ]
+    },
+    {
+      "label": "School admin",
+      "name": "admin",
+      "data": "people.name",
+      "meta": [
+        "searchable",
+        "sortable"
+      ]
+    },
+    {
+      "label": "Created at",
+      "name": "created_at",
+      "data": "schools.created_at",
+      "meta": [
+        "date",
         "sortable"
       ]
     }

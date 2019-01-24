@@ -12,7 +12,10 @@ class SchoolTable extends Table
     public function query()
     {
         return School::select(\DB::raw('
-            schools.*, schools.id as "dtRowId"
-        '));
+            schools.*, schools.id as "dtRowId", people.name as admin
+        '))
+        ->leftJoin('users', 'schools.admin_id', '=', 'users.id')
+        ->leftJoin('people', 'users.person_id', '=', 'people.id')
+        ;
     }
 }
